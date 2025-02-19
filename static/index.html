@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>File share</title>
+    <link rel="shortcut icon" href="favicon.svg" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="header">
+            <img src="favicon.svg" class="favicon">
+            <h1>file share</h1>
+        </div>
+        <hr><br>
+        <div class="title-1">
+            <h2>Upload File</h2>
+        </div>
+
+        <form id="uploadForm">
+            <div class="uploadform">
+                <div class="fileinputdiv">
+                    <input type="file" id="fileInput" class="fileinput" name="file" multiple>
+                </div>
+                <div class="uploadbtn">
+                    <button type="submit">upload</button>
+                </div>
+            </div>
+        </form>
+
+        <div class="title-2">
+            <h2>Uploaded Files</h2>
+        </div>
+        <div class="display">
+            <div class="image-container" id="imageContainer">
+                <!-- Files will be displayed here -->
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
